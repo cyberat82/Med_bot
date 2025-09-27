@@ -1,2 +1,9 @@
-selenium
-python-telegram-bot==20.7
+python-telegram-bot>=20.7
+python-dotenv
+requests
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+beautifulsoup4>=4.12.0
+lxml

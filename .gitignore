@@ -1,0 +1,25 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+venv/
+.env.*
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Selenium/Drivers/Artifacts
+chromedriver*
+*.png
+*.html
+
+# Local data/secrets
+service_account.json
+appointments.json
+

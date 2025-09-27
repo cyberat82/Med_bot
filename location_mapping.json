@@ -1,0 +1,18 @@
+{
+  "sokolniki": {
+    "type": "lisarent",
+    "display_name": "Сокольники"
+  },
+  "myasnitskaya-8_myasnitskaya-4": {
+    "type": "psychoplace",
+    "display_name": "Лубянка"
+  },
+  "polyanka_polyanka-1": {
+    "type": "psychoplace",
+    "display_name": "Третьяковская"
+  },
+  "pokrovka_pokrovka-7": {
+    "type": "psychoplace",
+    "display_name": "Китай-город"
+  }
+}
