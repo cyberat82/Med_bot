@@ -69,6 +69,9 @@
 # ⬇ Импорт необходимых библиотек
 import logging
 import os
+import re
+import datetime as dt
+
 import requests
 from dotenv import load_dotenv
 from telegram.ext import ContextTypes, Application, CommandHandler, MessageHandler, CallbackQueryHandler, \
@@ -79,7 +82,7 @@ from google_utils import is_slot_free, append_row
 import json
 import uuid
 from telegram.constants import ParseMode
-from telegram import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, Update
+from telegram import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, Update, ReplyKeyboardRemove
 
 # Загрузка переменных окружения из файла .env
 load_dotenv()
